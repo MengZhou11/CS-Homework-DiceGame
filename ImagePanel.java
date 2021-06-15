@@ -1,4 +1,4 @@
-package Assignment8.PartIV.graphics;
+package Assignment8.PartIV;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -15,12 +15,12 @@ public class ImagePanel extends JPanel {
 	final BufferedImage[] image = new BufferedImage [6];
 	{
 		try {
-			image[0] = ImageIO.read(new File("/Users/mengzhou/Desktop/Java/Assignment8/PartIV/die1.png"));
-			image[1] = ImageIO.read(new File("/Users/mengzhou/Desktop/Java/Assignment8/PartIV/die2.png"));
-			image[2] = ImageIO.read(new File("/Users/mengzhou/Desktop/Java/Assignment8/PartIV/die3.png"));
-			image[3] = ImageIO.read(new File("/Users/mengzhou/Desktop/Java/Assignment8/PartIV/die4.png"));
-			image[4] = ImageIO.read(new File("/Users/mengzhou/Desktop/Java/Assignment8/PartIV/die5.png"));
-			image[5] = ImageIO.read(new File("/Users/mengzhou/Desktop/Java/Assignment8/PartIV/die6.png"));
+			image[0] = ImageIO.read(new File("die1.png"));
+			image[1] = ImageIO.read(new File("die2.png"));
+			image[2] = ImageIO.read(new File("die3.png"));
+			image[3] = ImageIO.read(new File("die4.png"));
+			image[4] = ImageIO.read(new File("die5.png"));
+			image[5] = ImageIO.read(new File("die6.png"));
 		} catch (
 				IOException e) {
 			e.printStackTrace();
